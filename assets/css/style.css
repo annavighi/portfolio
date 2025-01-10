@@ -5,7 +5,7 @@
     text-decoration: none;
     outline: none;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -20,8 +20,6 @@
     --white: #F9F9F9
 
     --grey: #cccccc;
-
-    --black: #171717
 }
 
 html {
@@ -35,14 +33,14 @@ body{
 }
 
 h1{
-    color: var(--white);
+    color: var(--purple);
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h2{
     padding: 1rem;
-    color: var(--black);
+    color: var(--grey);
     font-size: 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -81,8 +79,8 @@ p{
     width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--pink-200);
-    border-bottom: 3px solid var(--pink-300);
+    background-color: var(--pink-300);
+    border-bottom: 1px solid var(--pink-300);
 }
 
 #menu li{
@@ -92,12 +90,12 @@ p{
 
 #menu li a{
     text-decoration: none;
-    color: var(--white);
+    color: var(--purple);
     font-size: 20px;
 }
 
 #menu li a:hover{
-    color: var(--pink-300);
+    color: var(--purple);
     text-decoration: underline;
 }
 
@@ -162,4 +160,73 @@ footer{
     hue-rotate(213deg)
     brightness(86%)
     contrast(88%);
+}
+
+#contact{
+    flex-direction: row;
+    gap: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: none;
+}
+
+form label {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+form input,
+textarea {
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+    border-radius: 1.25rem;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+    height: 5rem;
+}
+
+form span{
+    margin: 0 0 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: red;
+}
+
+form button {
+    text-align: center;
+    padding: 0.75rem 2rem;
+    background: var(--pink-200);
+    border: 1px solid var(--purple);
+    color: var(--grey);
+    border-radius: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: var(--lightblue);
+}
+
+#mapa{
+    width: 480px;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#endereco > p{
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 600;
 }
