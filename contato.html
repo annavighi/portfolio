@@ -6,13 +6,16 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Anna Carolina Vighi">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+		
+		<link rel="stylesheet" href="./assets/css/style.css">
+
 		<title>Contato</title>
 	</head>
 	<body>
 		<header>
-			<div id="header_content">
-				<div id="Anna Carolina Vighi">
-					<h1>Fale comigo</h1>
+			<div id="header_content" class="flex">
+				<div id="titulo">
+					<h1>Fala que eu te escuto!</h1>
 				</div>
 
 				<div id="menu">
@@ -32,7 +35,7 @@
 
 		<main>
 
-             <section id="contact">
+             <section id="contact" class="flex">
 
                 <form action="#" method="submit" id="formulario">
 
@@ -79,9 +82,10 @@
                     
                 </form>
 
-                <article id="mapa">
-
+				<section id="mapa" class="flex_start">
+					<div id="endereco">
                     <p>Escadaria do Bixiga, São Paulo - SP</p>
+					</div>
                 
                     <iframe
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.1939867453219!2d-46.64673291256501!3d-23.55993927951592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b72daecd6b%3A0xd9438b95debb7174!2sEscadaria%20do%20Bixiga!5e0!3m2!1spt-BR!2sbr!4v1736265467114!5m2!1spt-BR!2sbr">
@@ -102,18 +106,18 @@
 
 		</main>
 
-		<footer>
+		<footer class="flex">
 
             <section id="redes_sociais">
 
                     <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                        <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
                     </a>
                     <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
+                        <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
                     </a>
                     <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
+                        <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
                     </a>
 
             </section>
@@ -123,5 +127,8 @@
 			</h3>
 
 		</footer>
+
+		<script src="./assets/js/script.js"></script>
+
 	</body>
 </html>

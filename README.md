@@ -27,7 +27,7 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório:
 	```bash
-   git clone https://github.com/annavighi/portfolio.git
+   git clone https://github.com/seu-user/portfolio.git
 ```
 2. Abra o projeto no Visual Studio Code:
    ```bash
@@ -43,7 +43,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://annavighi.io/portfolio)
+- [Portfólio Pessoal](https://seu-user.io/portfolio)
 
 ## Contribuindo
 

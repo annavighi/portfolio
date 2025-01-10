@@ -2,20 +2,26 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Anna Carolina Vighi">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+   
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg"/>
+
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    
     <title>Meu Perfil</title>
 </head>
+
 <body>
     <header>
-       <div id="header_content">
+<div id="header_content" class="flex">
         <div id="titulo">
             <h1>Anna Carolina Vighi</h1>
-         </div>
-         <div id=""menu>
+        </div>
+<div id=""menu>
             <nav>
         <ul id="menu">
             <li>
@@ -27,18 +33,20 @@
         </ul>
         </nav>
     </div>
-       </header>
+</header>
 
     <main>
-        <section id="about">
+        <section id="about" clas="flex_start">
             <h2>
                 Sobre mim
             </h2>
 
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
                 <img
-						src="./assets/img/user_01.svg"
+						src="./assets/img/user_02.svg"
 						alt="Foto do criador desse conteudo"
+
+                        class="img_profile"
 					/>
                     <article id="sobre_texto">
                         <p>
@@ -52,7 +60,7 @@
 							et sapiente qui vitae accusamus adipisci provident
 							sit assumenda laboriosam!
 						</p>
-                           <p>
+                        <p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Voluptatem odio possimus, dolorem earum atque
 							itaque quas soluta placeat iure omnis porro cum
@@ -68,9 +76,9 @@
             </div>
         </section>
 
-        <section id="video">
-            <h2>Quer ver mais do meu trabalho? Dá um play!</h2>
-            <div class="youtube">
+        <section id="video" class="flex_start">
+            <h2>Meu vídeo favorito</h2>
+            <div id="youtube" class="flex">
                 <iframe
                     width="560"
                     height="315"
@@ -84,7 +92,7 @@
 
     </main>
 
-    <footer>
+    <footer class="flex">
         <section id="redes_sociais">
             <a href="">
                 <img src="assets/img/linkedin.svg" alt="LinkedIn" />
